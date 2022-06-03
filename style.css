@@ -179,7 +179,7 @@ header#presentation{
 }
 
 #presentation .idiom-flag{
-    height: 60px;
+    height: 51px;
     position:relative;
     display:flex;
     justify-content: flex-end;
@@ -191,7 +191,7 @@ header#presentation{
 #presentation .idiom-flag img{
     max-width:35px;
     max-height: 20px;
-    margin:10px;
+    margin:10px 10px 0 10px;
 }
 
 #presentation img.change-idiom:hover{
@@ -289,6 +289,7 @@ header#presentation{
 @keyframes text_reveal_name{
     100%{
         color: gold;
+        text-shadow: 0 0 20px black;
         font-weight: 500px;
     }
 }
@@ -456,14 +457,6 @@ header#presentation{
         height:460px;
         width:90%;
     }
-
-    /*#portfolio .project-item h1{
-        font-size:1.85em;
-    }
-
-    #portfolio .project-item p{
-        font-size:1em;
-    }*/
 
     #portfolio .all-projects .project-info{
         height:100%;
