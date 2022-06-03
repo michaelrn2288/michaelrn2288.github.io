@@ -178,19 +178,6 @@ header#presentation{
     max-height:100vh;
 }
 
-#presentation #article-shortcuts{
-position:relative;
-display:inline-block;
-font-size:12px;
-top:10px;
-left:333px;
-height:auto;
-width:auto;
-padding:auto;
-margin:auto;
-background-color:pink;
-}
-
 #presentation .idiom-flag{
     height: 60px;
     position:relative;
