@@ -209,6 +209,7 @@ header#presentation{
     color: transparent;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1.5s;
+    margin-left: 4vw;
 }
 
 @keyframes text_reveal{
@@ -240,6 +241,7 @@ header#presentation{
     border: 2px solid gold;
     color: gold;
     margin-top: 20px;
+    margin-left: 5vw;
     text-transform: uppercase;
     letter-spacing: .1rem;
     background:rgb(34, 59, 104, 0.65);
