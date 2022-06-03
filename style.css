@@ -449,16 +449,16 @@ header#presentation{
 @media only screen and (min-width: 768px){
     #portfolio .project-item{
         flex-direction:row;
-        height:400px;
+        height:460px;
         width:90%;
     }
 
     #portfolio .project-item h1{
-        font-size:2em;
+        font-size:1.85em;
     }
 
     #portfolio .project-item p{
-        font-size:1.3em;
+        font-size:1em;
     }    
 
     #portfolio .all-projects .project-info{
