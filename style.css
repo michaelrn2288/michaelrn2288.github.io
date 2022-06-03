@@ -204,7 +204,7 @@ header#presentation{
 #presentation h1 {
     display:block;
     width: fit-content;
-    font-size: 5rem;
+    font-size: 4rem;
     position: relative;
     color: transparent;
     animation: text_reveal .5s ease forwards;
@@ -226,6 +226,10 @@ header#presentation{
 @media only screen and (min-height:440px){
     #presentation .presentation{
         align-items:center;
+    }
+
+    #presentation h1{
+        font-size:5em;
     }
 }
 
