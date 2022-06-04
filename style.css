@@ -348,7 +348,7 @@ header#presentation{
     z-index:-1;
 }
 
-#portfolio #article-shortcuts{
+#portfolio #page-shortcuts{
     position:fixed;
     top:25vh;
     left:0.5vw;
@@ -362,11 +362,17 @@ header#presentation{
     z-index:4;
 }
 
+#portfolio #page-shortcuts img{
+    width:25px;
+    margin-top:2px;
+}
+
+
 #portfolio a{
     display:block;
 }
 
-#portfolio #article-shortcuts li{
+#portfolio #page-shortcuts li{
     text-decoration:none;
     color:white;
     background-color:rgba(66, 57, 3, 0.8);
@@ -376,7 +382,7 @@ header#presentation{
     margin:17px 7px;
 }
 
-#portfolio #article-shortcuts li:hover{
+#portfolio #page-shortcuts li:hover{
     background-color: rgba(0,0,0,0.8);
     transition:0.3s;
 }
@@ -550,13 +556,9 @@ header#presentation{
 footer.container{
     background-color: black;
     min-height: 25vh;
-}
-
-footer address#social-links{
-	position:relative;
-	bottom:30px;
-	left:150px;
-    min-width: 300px;
+    display:flex;
+    flex-direction:column;
+    justify-items:center;
 }
 
 footer nav .social-link{
@@ -566,13 +568,8 @@ footer nav .social-link{
 
 footer p{
     color: white;
-    position:relative;
-    min-width: 300px;
-	right:110px;
-	top: 40px;
-	margin:0;
+    padding:5px;
 }
-
 
 footer nav img{
 	width:44px;
